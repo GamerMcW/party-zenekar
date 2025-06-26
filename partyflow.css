@@ -1,0 +1,114 @@
+body {
+	font-size: 11pt;
+	font-family: Verdana;
+	background-color: #9d8c71;
+	margin: 0px;
+	padding: 0px;
+    text-align: center;
+	
+}
+
+p {
+    text-align: center;
+	padding: 5px;
+    color: #3c2f1c;
+font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    letter-spacing: 1px;
+    font-size: 120%;
+    line-height: 190%;
+}
+
+h1 {
+	
+    text-align: center;
+    color: #4b3621;
+font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 300%;
+
+}
+
+h2 {
+  text-align: center;
+      color: #4b3621;
+font-family: 'Arial Black', Gadget, sans-serif;
+}
+
+
+
+img {
+      height: 90vh;
+}
+
+
+header {
+	background-color: rgb(78, 63, 58);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    box-shadow: 22px 0px 0px rgba(0, 0, 0, 0.3);
+}
+
+.az {
+    background-color: rgb(78, 64, 60);
+}
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+}
+
+.hero {
+  height: 90vh;
+  background-image: url('felso.png'); /* Itt cseréld ki a saját képed URL-jére */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  pointer-events: none;
+  justify-content: left;
+  align-items: center;
+  text-align: left;
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3);
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0); /* sötét áttetsző háttér a szöveg mögé */
+  padding: 40px;
+    margin-left: 3%;
+}
+
+.band-name {
+  font-size: 4rem;
+  color: #ffffff; /* Aranysárga */
+  font-weight: bold;
+  text-shadow: 2px 2px 10px #000000c9;
+
+}
+
+
+.tagline {
+    text-align: center;
+    color: #e0e0e0;
+font-family: Arial, Helvetica, sans-serif;
+font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 200%;
+  text-shadow: 2px 2px 10px #000000c9;
+
+}
+
+hr {
+  height: 2px;
+  background-color: #f4f4f4a8;
+  border: none;
+  margin: 10px auto;
+  width: 70%;
+}
+
